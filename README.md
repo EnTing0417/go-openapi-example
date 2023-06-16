@@ -4,7 +4,10 @@
 - Install go
 
 # run the program
-execute "go run main.go"
+```
+go mod tidy
+go run main.go
+```
 
 # access swagger
 http://localhost:8080/swagger/index.html
