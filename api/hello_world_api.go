@@ -16,6 +16,8 @@ import (
 // @Produce json
 // @Success 200 {string} Helloworld
 // @Router /helloworld [get]
-func Helloworld(g *gin.Context)  {
-	g.JSON(http.StatusOK,"helloworld")
+func Helloworld(c *gin.Context)  {
+	c.JSON(http.StatusOK,gin.H{
+		"message": "hello world",
+	})
  }

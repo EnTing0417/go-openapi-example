@@ -30,4 +30,5 @@ func Helloworld(g *gin.Context)  {
 
 STEP 2 - execute "swag init" in the root directory /go-swagger-example
 
-
+# dockerfile
+search enting0417/go-swagger from Dockerhub
