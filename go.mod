@@ -1,4 +1,4 @@
-module github.com/openapi-example
+module github.com/go-swagger-example
 
 go 1.20
 
