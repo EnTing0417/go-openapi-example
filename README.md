@@ -12,8 +12,9 @@ http://localhost:8080/swagger/index.html
 
 # add new api
 
-STEP 1 - Add new code snippet in main.go,
+STEP 1 - Add new code snippet in main.go
 
+```
 // @BasePath /api/v1
 // PingExample godoc
 // @Summary ping example
@@ -27,6 +28,7 @@ STEP 1 - Add new code snippet in main.go,
 func Helloworld(g *gin.Context)  {
 	g.JSON(http.StatusOK,"helloworld")
  }
+ ```
 
 STEP 2 - execute "swag init" in the root directory /go-swagger-example
 
